@@ -224,13 +224,13 @@ contactForm.addEventListener('submit', (e) => {
    const submitBtn = contactForm.querySelector('.submit-btn');
    const originalText = submitBtn.textContent;
 
-   submitBtn.textContent = 'Initiating Connection...';
+   submitBtn.textContent = 'Consultation Requested';
    submitBtn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
-   submitBtn.classList.add('loading');
+   //submitBtn.classList.add('loading');
 
    setTimeout(() => {
       submitBtn.textContent = 'Consultation Requested!';
-      submitBtn.classList.remove('loading');
+      //submitBtn.classList.remove('loading');
       setTimeout(() => {
          submitBtn.textContent = originalText;
          submitBtn.style.background = 'linear-gradient(135deg, #64748b, #475569)';

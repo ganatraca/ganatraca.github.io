@@ -1315,6 +1315,10 @@ body {
 	box-shadow: 0 15px 30px rgba(100, 116, 139, 0.4);
 }
 
+.footer-contact {
+	text-align: left;
+}
+
 /* Mobile Styles */
 @media (max-width: 1000px) {
 	.about {
