@@ -1441,6 +1441,27 @@ body {
 	}
 }
 
+@media (max-width: 768px) {
+    .founder-row {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .founder-image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .founder-content h3 {
+        font-size: 22px;
+    }
+
+    .boxed-title {
+        font-size: 22px;
+        padding: 8px 22px;
+    }
+}
+
 @media (max-width: 480px) {
 	.stats {
 		grid-template-columns: 1fr;
