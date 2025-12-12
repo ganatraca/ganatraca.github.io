@@ -15,9 +15,9 @@ mobileMenu.addEventListener('click', () => {
    const spans = mobileMenu.querySelectorAll('span');
    spans.forEach((span, index) => {
       span.style.transform = navLinks.classList.contains('active') ?
-         (index === 0 ? 'rotate(90deg) translate(5px, 5px)' :
-            index === 1 ? 'opacity(0)' :
-            'rotate(90deg) translate(7px, -6px)') : 'none';
+         (index === 0 ? 'rotate(90deg) translate(0px, 0px)' :
+            index === 1 ? 'rotate(90deg) opacity(0)' :
+            'rotate(90deg) translate(0px, -0px)') : 'none';
    });
 });
 
